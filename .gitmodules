@@ -1,0 +1,4 @@
+[submodule "packages/authdecode"]
+	path = packages/authdecode
+	url = https://github.com/tlsnotary/tlsn
+	branch = authdecode-wasm-benchmark

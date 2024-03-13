@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	@apply dark:bg-[#101010] dark:text-white h-full;
+}
+
+/* arimo-regular - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Arimo';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/arimo-v27-latin-regular.woff2') format('woff2'),
+		/* Chrome 36+, Opera 23+, Firefox 39+ */ url('/fonts/arimo-v27-latin-regular.woff')
+			format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* arimo-500 - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Arimo';
+	font-style: normal;
+	font-weight: 500;
+	src: url('/fonts/arimo-v27-latin-500.woff2') format('woff2'),
+		/* Chrome 36+, Opera 23+, Firefox 39+ */ url('/fonts/arimo-v27-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* arimo-700 - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Arimo';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/fonts/arimo-v27-latin-700.woff2') format('woff2'),
+		/* Chrome 36+, Opera 23+, Firefox 39+ */ url('/fonts/arimo-v27-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

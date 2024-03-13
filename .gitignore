@@ -1,0 +1,9 @@
+.env
+
+dist/
+out/
+node_modules/
+packages/contracts/cache/
+packages/contracts/broadcast/
+packages/contracts/deploys/
+.vercel

@@ -1,0 +1,10 @@
+procs:
+  contracts:
+    cwd: packages/contracts
+    shell: pnpm run dev
+  client:
+    cwd: packages/dapp
+    shell: pnpm run dev
+  notary:
+    cwd: packages/notary
+    shell: cargo run --release
