@@ -2,3 +2,6 @@
 	path = packages/authdecode
 	url = https://github.com/tlsnotary/tlsn
 	branch = authdecode-wasm-benchmark
+[submodule "packages/websockify"]
+	path = packages/websockify
+	url = https://github.com/novnc/websockify

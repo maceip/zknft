@@ -7,6 +7,9 @@ import { StoreSwitch } from "@latticexyz/store/src/StoreSwitch.sol";
 
 import { IWorld } from "../src/codegen/world/IWorld.sol";
 import { Tasks, TasksData } from "../src/codegen/index.sol";
+import { Halo2Verifier } from "../src/halo2/Halo2Verifier.sol";
+import { Verifier  } from "../src/verifier/Verifier.sol";
+import { Config  } from "../src/config/config.sol";
 
 contract PostDeploy is Script {
   function run(address worldAddress) external {

@@ -8,3 +8,6 @@ procs:
   notary:
     cwd: packages/notary
     shell: cargo run --release
+  websockify:
+    cwd: packages/websockify
+    shell: ./docker/build.sh && docker run -it --rm -p 55688:80 novnc/websockify 80 example.com:443

@@ -7,6 +7,7 @@
   "scripts": {
     "build": "vite build",
     "dev": "wait-port localhost:8545 && vite",
+    "local": "vite",
     "preview": "vite preview",
     "test": "tsc --noEmit"
   },
@@ -19,11 +20,15 @@
     "@latticexyz/store-sync": "2.0.0-main-d1753d08",
     "@latticexyz/utils": "2.0.0-main-d1753d08",
     "@latticexyz/world": "2.0.0-main-d1753d08",
+    "@rollup/plugin-inject": "^5.0.5",
     "contracts": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^6.1.6",
     "rxjs": "7.5.5",
-    "viem": "1.14.0"
+    "tlsn-js": "0.1.0-alpha.4.1",
+    "viem": "1.14.0",
+    "vite-plugin-static-copy": "^1.0.1"
   },
   "devDependencies": {
     "@types/react": "18.2.22",
