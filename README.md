@@ -18,9 +18,13 @@ pnpm dev
 
 **after running pnpm dev, open browser and go to: https://local.proof.markets:4173**
 
-
+<br>
+<br>
 <div>
-<img src="/packages/common/static/t.png" style=" width:80px ; height:80px " />
-<img src="/packages/common/static/l.png" style=" width:192px ; height:101px " />
-</div>
+
+<p align="center">
+<img src="/packages/common/static/t.png" style=" width:60px ; height:60px " />
+<img src="/packages/common/static/l.png" style=" width:98px ; height:50px " />
+  </p>
+  </div>
 
