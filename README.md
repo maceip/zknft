@@ -1,4 +1,4 @@
-tlsnotary e2e demo
+<h1>tlsnotary e2e demo</h1>
 
 notary server
 dapp to verify authdecode halo2 poseidon hashes
