@@ -1,9 +1,20 @@
+tlsnotary e2e demo
+
+notary server
+dapp to verify authdecode halo2 poseidon hashes
+webapp to create proofs
+halo2 verification in solidity
+websockify to enable browsers to break free of their chains and get raw sock() access
+
+after running pnpm dev, open browser and go to: https://local.proof.markets:4173
 ### Developing
 
 ```
 pnpm install
 pnpm dev
 ```
+
+
 
 ### Building
 
