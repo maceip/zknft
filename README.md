@@ -17,14 +17,15 @@ pnpm dev
 <div>
 
 
-**after running pnpm dev**
-* open browser and go to: https://local.proof.markets:4173
-* _you should see the following_:
+**after running pnpm dev:**
+1. your terminal should show:
+  <p align="center">
+  <img src="https://index-6551.s3.us-west-1.amazonaws.com/dash.png" style=" width:500px ; height:auto " />
 
-<br/>
-<p align="center">
-
-<img src="/packages/common/static/web_demo.jpg" style=" width:500px ; height:auto " />
+2. open browser and go to: https://local.proof.markets:4173
+3. _you should see the following_:
+  <p align="center">
+<img src="/packages/common/static/web_demo.jpg" style=" width:400px ; height:auto " />
 </p>
 
 </div>
