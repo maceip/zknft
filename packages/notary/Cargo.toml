@@ -11,4 +11,5 @@ tokio = { version = "1", features = ["full"] }
 eyre = "0.6.8"
 tracing = "0.1"
 structopt = "0.3.26"
-notary-server = { path = "../authdecode/notary-server/" }
+notary-server = { git = "https://github.com/tlsnotary/tlsn.git", tag = "v0.1.0-alpha.4", package = "notary-server" }
+

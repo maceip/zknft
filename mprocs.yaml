@@ -2,16 +2,16 @@ procs:
   contracts:
     cwd: packages/contracts
     shell: pnpm run dev
-  dapp:
-    cwd: packages/dapp
+  dapp-verify-proof:
+    cwd: packages/dapp-verify
     shell: pnpm run dev
   web-gen-proof:
     cwd: packages/webapp-prove
-    shell: pnpm run dev
+    shell:  pnpm run build && pnpm run preview
   notary:
     cwd: packages/notary
     shell: cargo run --release
     stop: SIGTERM
   websockify:
     cwd: packages/proxy/websockify
-    shell: ./websockify.js 55688 example.com:443
+    shell: ./websockify.js --cert ../../common/fixture/tls/cert1.pem --key ../../common/fixture/tls/privkey1.pem 55688 example.com:443

@@ -14,6 +14,8 @@
     "@vitejs/plugin-basic-ssl": "^1.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^6.1.6",
+    "tlsn-js": "0.1.0-alpha.4.1",
     "vite-plugin-node-polyfills": "^0.21.0",
     "vite-plugin-static-copy": "^1.0.1"
   },

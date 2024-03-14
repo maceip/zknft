@@ -1,2 +1,8 @@
 packages:
-  - 'packages/*'
+  - 'packages/webapp-prove'
+  - 'packages/contracts'
+  - 'packages/dapp-verify'
+  - 'packages/notary'
+  - 'packages/proxy/websockify'
+  - 'packages/tlsn-js'
+
