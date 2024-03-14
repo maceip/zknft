@@ -14,16 +14,25 @@
 pnpm install
 pnpm dev
 ```
-
-
-**after running pnpm dev, open browser and go to: https://local.proof.markets:4173**
-
-you should see the following:
-<img src="/packages/common/static/webapp.png" style=""/>
-<br>
-<br>
 <div>
 
+
+**after running pnpm dev**
+* open browser and go to: https://local.proof.markets:4173
+* _you should see the following_:
+
+<br/>
+<p align="center">
+
+<img src="/packages/common/static/web_demo.jpg" style=" width:500px ; height:auto " />
+</p>
+
+</div>
+<br>
+<br>
+
+<div>
+  
 <p align="center">
 <img src="/packages/common/static/t.png" style=" width:60px ; height:60px " />
 <img src="/packages/common/static/l.png" style=" width:98px ; height:50px " />
