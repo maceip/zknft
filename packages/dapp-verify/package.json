@@ -1,0 +1,43 @@
+{
+  "name": "client",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "wait-port localhost:8545 && vite",
+    "local": "vite dev",
+    "preview": "vite preview",
+    "test": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@latticexyz/common": "2.0.0-main-d1753d08",
+    "@latticexyz/dev-tools": "2.0.0-main-d1753d08",
+    "@latticexyz/react": "2.0.0-main-d1753d08",
+    "@latticexyz/schema-type": "2.0.0-main-d1753d08",
+    "@latticexyz/services": "2.0.0-main-d1753d08",
+    "@latticexyz/store-sync": "2.0.0-main-d1753d08",
+    "@latticexyz/utils": "2.0.0-main-d1753d08",
+    "@latticexyz/world": "2.0.0-main-d1753d08",
+    "@rollup/plugin-inject": "^5.0.5",
+    "contracts": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loader-spinner": "^6.1.6",
+    "rxjs": "7.5.5",
+    "tlsn-js": "0.1.0-alpha.4.1",
+    "viem": "1.14.0",
+    "vite-plugin-node-polyfills": "^0.21.0"
+    },
+  "devDependencies": {
+    "vite-plugin-static-copy": "^1.0.1",
+    "@types/react": "18.2.22",
+    "@types/react-dom": "18.2.7",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint-plugin-react": "7.31.11",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "vite": "^4.2.1",
+    "wait-port": "^1.0.4"
+  }
+}

@@ -2,12 +2,16 @@ procs:
   contracts:
     cwd: packages/contracts
     shell: pnpm run dev
-  client:
+  dapp:
     cwd: packages/dapp
+    shell: pnpm run dev
+  web-gen-proof:
+    cwd: packages/webapp-prove
     shell: pnpm run dev
   notary:
     cwd: packages/notary
     shell: cargo run --release
+    stop: SIGTERM
   websockify:
-    cwd: packages/websockify
-    shell: ./docker/build.sh && docker run -it --rm -p 55688:80 novnc/websockify 80 example.com:443
+    cwd: packages/proxy/websockify
+    shell: ./websockify.js 55688 example.com:443
