@@ -18,6 +18,8 @@ pnpm dev
 
 **after running pnpm dev, open browser and go to: https://local.proof.markets:4173**
 
+you should see the following:
+<img src="/packages/common/static/webapp.png" style=""/>
 <br>
 <br>
 <div>
